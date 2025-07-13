@@ -1,0 +1,41 @@
+body{
+     height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+
+.header
+{
+    
+    flex-direction: column;
+    display: flex;
+    background-color:#1f2937;
+    color: white;
+    height: 400px;
+}
+
+ul
+{
+    
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.logo
+{
+    display: flex;
+    margin-left: 50px;
+    padding: 0px 30px;
+    
+}
+.header ul{
+    display: flex;
+    align-items: flex-end;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  
+}
