@@ -8,6 +8,7 @@
 header{
     background-color: #1f2937;
     padding: 1px 13 px;
+    
 }
 
 .nav {
@@ -29,3 +30,43 @@ a:link {
 }
 
 /* welcome */
+
+.welcome{
+    display: flex;
+    align-items: center;
+    padding: 7em 0;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-left: 70px;
+}
+.welcome .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.welcome .right {
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.hero {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+    
+}
+
+
+
+button {
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.welcome button {
+    border: none;
+}
+    
